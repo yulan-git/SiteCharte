@@ -1,0 +1,90 @@
+
+
+/** header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header{
+box-shadow: 10px 2px 5px #F1F1F1, -10px 2px 5px #F1F1F1;
+background-color: #FFF;
+}
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  max-width: 800px;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+.content{
+  margin-bottom: 25px;
+  padding-left: 20px;
+  font-size: 0.8em;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #F1F1F1, -10px -10px 5px #F1F1F1;
+}
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {background-color: rgb(246, 246, 252); }
+  
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  padding: 15px 5px;
+}
+p {
+  font-size: 0.8em; 
+}
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style-image: url('/images/bullet.png'); 
+}
+
+ol, ul {
+  padding-right: 0 ;
+  padding-right: 20px;
+  text-align: left;
+  margin-top: 0; }
+
+li {
+  margin-bottom: 1rem;
+  }
+
+#button-charte{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#button-random{
+padding-left: calc(50% - 78px);
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+
+.active, .extend:hover{
+    text-decoration: none;
+}
+
+
+ul{
+    display: none;
+    overflow: hidden;
+}
