@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <!-- Les bases d'une page HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Le titre de votre page </title>
+  <meta name="description" content="Notre Charte de Promo">
+  <meta name="author" content="Promo Simplon Aulnay">
+
+  <!-- Métadonnées spécifique Mobiles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Liaisons des Polices
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Liaisons des fichiers CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css"
+
+  <!-- Liaisons du fichier JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- TODO -->
+
+  <!-- Liaison du Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- TODO -->
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h4>
+        Promo DWWM - Aulnay 2021
+      </h4>
+    </div>
+  </header>
+
+
+  <!-- Structure principale de la page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main>
+    <div class="container main">
+      <div class="row acces-charte">
+        <div class="six columns">
+          <h5>Ceci est notre charte de promo</h5>
+          <p>Ces règles nous unissent et ont été (longuement 😅) <strong>débatues</strong> et <strong>votées</strong> pour pouvoir selectionner celles qui nous correspondent et nous unissent. Les voici, prenez plaisir à les parcourir !</p>
+        </div>
+        <div class="six columns" id="button-charte">
+            <a class="button button-primary" target="_blank" href="https://docs.google.com/document/d/1F0u_2i1WaeH4Q4Rj0GrUqi-fOqGMufwzziaG5qd4tk0/edit#">Accès Charte</a>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="container content">
+        <h5 class="content-title extend">
+          Réussite Collective <span>(Cliquer pour étendre)</span>
+        </h5>
+        <ul>
+          <li>
+            Si j’ai fini un exercice, j’aide les autres
+          </li>
+          <li>
+            En cas de difficulté, je n’hésite pas à solliciter le groupe, à condition d’avoir suffisamment recherché en autonomie,
+            si je demande de l’aide je m’engage à approfondir le sujet par moi même
+          </li>
+          <li>
+            Je pratique la critique positive, je donne des pistes d’amélioration/une argumentation et je reste bienveillant
+          </li>
+          <li>
+            Je partage mes sources, bonnes pratiques, trucs et astuces
+          </li>
+          <li>
+            Rester positif, parler aux autres en cas de soucis
+          </li>
+        </ul>
+      </div>
+      <div class="container content">
+        <h5 class="content-title extend">
+          Vivre Ensemble <span>(Cliquer pour étendre)</span>
+        </h5>
+        <ul>
+          <li>
+            Je fais en sorte qu’il n’y ait pas de bruits parasites (téléphone en silencieux, je ramène mes écouteurs)
+          </li>
+          <li>
+            En cas de difficulté, je n’hésite pas à solliciter le groupe, à condition d’avoir suffisamment recherché en autonomie,
+            si je demande de l’aide je m’engage à approfondir le sujet par moi même
+          </li>
+          <li>
+            Je fais attention aux affaires des autres quand ils sont absents.
+            Être soi-même
+          </li>
+        </ul >
+      </div>
+      <div class="container content">
+        <h5 class="content-title extend">
+          Covid <span>(Cliquer pour étendre)</span>
+        </h5>
+        <ul>
+          <li>
+            Je nettoie mon espace espace de travail en fin de journée
+          </li>
+          <li>
+            Je respecte les gestes barrières
+          </li>
+        </ul>
+      </div>
+      <div class="container content">
+        <h5 class="content-title extend">
+          Fun <span>(Cliquer pour étendre)</span>
+        </h5>
+        <ul>
+          <li>
+            J’organise un moment de divertissement 1 fois tous les 15 jours
+          </li>
+          <li>
+            Je fais un goûter en fin de semaine
+          </li>
+          <li>
+            Je participe à un repas dès que les restaurants seront (officiellement) réouvert
+          </li>
+          <li>
+            Je garde toujours une note d’humour pour un climat amical
+          </li>
+        </ul>
+    </div>
+
+    
+    <div class="container main">
+      Grâce à ce règlement on obtient le code suivant : 
+      <pre><code>
+        var compétencesDePromo = [];
+        var humeurPromo = 'Au top'; 
+        if('règles comprises' == true && 'règles appliquées' == true) {
+          compétencesDePromo.push(new Compétence()); 
+        } else {
+          humeurPromo = 'Pas top';
+        }
+      </code></pre>
+    </div>
+
+    <div id="button-random">
+      <button id="btn">random apprenant</button>
+      <div id='prenom'></div>
+    </div>
+  </main>
+  
+  <!-- Fin du document (fermeture des balises)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="app.js"></script>
+</body>
+</html>
